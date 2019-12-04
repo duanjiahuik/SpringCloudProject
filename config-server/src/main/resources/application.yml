@@ -1,0 +1,14 @@
+server:
+ port: 8000
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+        #仓库地址
+          uri: https://github.com/duanjiahuik/SpringCloud.git
+          search-paths: config/testrepo #git下的文件夹路径
+          username: duanjiahuik
+          password: duan15897818656
