@@ -22,11 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="SpringCouldProject" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="task-manager" />
+        <module name="user-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="SpringCouldProject" target="1.5" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="SpringCouldProject" target="1.8" />
+      <module name="task-manager" target="1.8" />
+      <module name="user-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
